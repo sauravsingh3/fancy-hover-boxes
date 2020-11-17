@@ -8,3 +8,12 @@ html {
 *::after {
   box-sizing: inherit;
 }
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
